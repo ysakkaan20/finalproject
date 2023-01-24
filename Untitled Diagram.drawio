@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T16:29:08.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F6E2-gI4bN4yVht4nTK1" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T16:32:13.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lRTHQchiR7xAvxXvoL1u" version="20.8.10" type="github">
   <diagram name="Page-1" id="uQaYhAECME0J1sWlYUqw">
     <mxGraphModel dx="1434" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,10 +35,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7OAMDePOKl8OXuFvk6ht-17" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="190" width="690" height="440" as="geometry" />
+          <mxGeometry x="10" y="670" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-31" value="Pipline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7OAMDePOKl8OXuFvk6ht-17">
+          <mxGeometry x="285" y="10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7OAMDePOKl8OXuFvk6ht-18" value="AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="205" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-24" value="deploy trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OAMDePOKl8OXuFvk6ht-19" target="7OAMDePOKl8OXuFvk6ht-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="800" />
+              <mxPoint x="230" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-19" value="Github" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="720" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-22" value="Commit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OAMDePOKl8OXuFvk6ht-20" target="7OAMDePOKl8OXuFvk6ht-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-20" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="970" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OAMDePOKl8OXuFvk6ht-23" target="7OAMDePOKl8OXuFvk6ht-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-27" value="update" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OAMDePOKl8OXuFvk6ht-23" target="7OAMDePOKl8OXuFvk6ht-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-23" value="circleCi" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="720" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-25" value="AWS" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="720" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-30" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="690" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
