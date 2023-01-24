@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T15:05:23.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UJJ_gsBMueJmfKCBhXJ7" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T16:29:08.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F6E2-gI4bN4yVht4nTK1" version="20.8.10" type="github">
   <diagram name="Page-1" id="uQaYhAECME0J1sWlYUqw">
     <mxGraphModel dx="1434" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,6 +33,12 @@
             <mxPoint x="710" y="404.5" as="sourcePoint" />
             <mxPoint x="800" y="405" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-17" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7OAMDePOKl8OXuFvk6ht-18" value="AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="205" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
