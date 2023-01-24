@@ -3,7 +3,7 @@
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
-this is the link of working app  : http://udacityprojectjoe.s3-website-us-east-1.amazonaws.com/home
+this is the link of working app  : http://udacityprojectjoe.s3-website-us-east-1.amazonaws.com
 
 
 
